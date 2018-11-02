@@ -1,11 +1,11 @@
 exports.up = function(knex, Promise){
-  return knex.schema.createTable("instructions", table => {
+  return knex.schema.createTable("recipes", table => {
     table.increments("id").primary()
-    table.text("instruction")
+    table.text("recipe")
     table.integer("drink_id").references("drinks.id")
   })
 }
 
 exports.down = function(knex, Promise){
-  return knex.schema.dropTableIfExists("instructions")
+  return knex.schema.dropTableIfExists("recipes")
 }
