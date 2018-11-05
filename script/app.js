@@ -3,25 +3,24 @@ const app = express()
 const queries = require("./queries")
 const bodyParser = require("body-parser")
 const cors = require("cors")
-const stripe = require("stripe")(process.env.STRIPE_KEY)
 
 app.use(bodyParser.json())
 app.use(cors())
 
-app.get("/animals", (request, response) => {
+app.get("/drinks", (request, response) => {
   queries
-    .list("animals")
-    .then(animals => {
-      response.json({ animals })
+    .list("drinks")
+    .then(drinks => {
+      response.json({ drinks })
     })
     .catch(console.error)
 })
 
-app.get("/facts", (request, response) => {
+app.get("/recipes", (request, response) => {
   queries
-    .list("facts")
-    .then(facts => {
-      response.json({ facts })
+    .list("recipes")
+    .then(recipes => {
+      response.json({ recipes })
     })
     .catch(console.error)
 })
@@ -35,11 +34,11 @@ app.get("/comments", (request, response) => {
     .catch(console.error)
 })
 
-app.get("/animals/:id", (request, response) => {
+app.get("/drinks/:id", (request, response) => {
   queries
-    .read(request.params.id, "animals")
-    .then(animals => {
-      animals ? response.json({ animals }) : response.sendStatus(404)
+    .read(request.params.id, "drinks")
+    .then(drinks => {
+      drinks ? response.json({ drinks }) : response.sendStatus(404)
     })
     .catch(console.error)
 })
@@ -53,11 +52,11 @@ app.get("/comments/:id", (request, response) => {
     .catch(console.error)
 })
 
-app.get("/facts/:id", (request, response) => {
+app.get("/recipes/:id", (request, response) => {
   queries
-    .read(request.params.id, "facts")
-    .then(facts => {
-      facts ? response.json({ facts }) : response.sendStatus(404)
+    .read(request.params.id, "recipes")
+    .then(recipes => {
+      recipes ? response.json({ recipes }) : response.sendStatus(404)
     })
     .catch(console.error)
 })
@@ -71,20 +70,20 @@ app.post("/comments", (request, response) => {
     .catch(console.error)
 })
 
-app.post("/animals", (request, response) => {
+app.post("/drinks", (request, response) => {
   queries
-    .create(request.body, "animals")
-    .then(animals => {
-      response.status(201).json({ animals })
+    .create(request.body, "drinks")
+    .then(drinks => {
+      response.status(201).json({ drinks })
     })
     .catch(console.error)
 })
 
-app.post("/facts", (request, response) => {
+app.post("/recipes", (request, response) => {
   queries
-    .create(request.body, "facts")
-    .then(facts => {
-      response.status(201).json({ facts })
+    .create(request.body, "recipes")
+    .then(recipes => {
+      response.status(201).json({ recipes })
     })
     .catch(console.error)
 })
@@ -98,20 +97,20 @@ app.put("/comments/:id", (request, response) => {
     .catch(console.error)
 })
 
-app.put("/animals/:id", (request, response) => {
+app.put("/drinks/:id", (request, response) => {
   queries
-    .update(request.params.id, request.body, "animals")
-    .then(animals => {
-      response.json({ animals })
+    .update(request.params.id, request.body, "drinks")
+    .then(drinks => {
+      response.json({ drinks })
     })
     .catch(console.error)
 })
 
-app.put("/facts/:id", (request, response) => {
+app.put("/recipes/:id", (request, response) => {
   queries
-    .update(request.params.id, request.body, "facts")
-    .then(facts => {
-      response.json({ facts })
+    .update(request.params.id, request.body, "recipes")
+    .then(recipes => {
+      response.json({ recipes })
     })
     .catch(console.error)
 })
@@ -127,9 +126,9 @@ app.delete("/comments/:id", (request, response, next) => {
 
 app.get("/", (request, response, next) => {
   queries
-    .getAnimalFacts()
-    .then(facts => {
-      response.json({ facts })
+    .getDrinkRecipes()
+    .then(recipes => {
+      response.json({ recipes })
     })
     .catch(next)
 })
