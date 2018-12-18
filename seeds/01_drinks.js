@@ -21,6 +21,144 @@ exports.seed = function(knex, Promise) {
           name: "Boulevardier",
           ingredients: "1 oz Campari, 1 oz Sweet vermouth, 1 1⁄4 ozBulleit Rye Whiskey",
           image: "https://i.imgur.com/25KVgl1.jpg"
+        },
+        {
+          id: 4,
+          name: "Margarita",
+          ingredients: "2 oz Blanco tequila, 1 oz Fresh lime juice, 1⁄2 oz Orange liqueur, 1⁄2 oz Agave syrup",
+          image: "https://i.imgur.com/8Vc6taM.jpg"
+        },
+        {
+          id: 5,
+          name: "Paloma",
+          ingredients: "Tequila 2 oz, 1/2 oz Fresh lime juice, Pinch of salt (to taste) Grapefruit soda, to top (Jarritos or Squirt work best)",
+          image: "https://i.imgur.com/CsmLoPS.jpg"
+        },
+        {
+          id: 6,
+          name: "Tequila Limeade",
+          ingredients: "1⁄2 oz Light agave nectar, 8 sprigs Cilantro leaves, plus a full sprig for garnish, 2 slices Fresh jalapeño, 1 1⁄2 oz Cazadores tequila blanco, 3⁄4 oz Fresh lime juice, 12 oz Club soda",
+          image: "https://i.imgur.com/mSGJgEN.jpg"
+        },
+        {
+          id: 7,
+          name: "Boulevardier",
+          ingredients: "1 oz Campari, 1 oz Sweet vermouth, 1 1⁄4 ozBulleit Rye Whiskey",
+          image: "https://i.imgur.com/25KVgl1.jpg"
+        },
+        {
+          id: 8,
+          name: "Boulevardier",
+          ingredients: "1 oz Campari, 1 oz Sweet vermouth, 1 1⁄4 ozBulleit Rye Whiskey",
+          image: "https://i.imgur.com/25KVgl1.jpg"
+        },
+        {
+          id: 9,
+          name: "Boulevardier",
+          ingredients: "1 oz Campari, 1 oz Sweet vermouth, 1 1⁄4 ozBulleit Rye Whiskey",
+          image: "https://i.imgur.com/25KVgl1.jpg"
+        },
+        {
+          id: 10,
+          name: "Boulevardier",
+          ingredients: "1 oz Campari, 1 oz Sweet vermouth, 1 1⁄4 ozBulleit Rye Whiskey",
+          image: "https://i.imgur.com/25KVgl1.jpg"
+        },
+        {
+          id: 11,
+          name: "Boulevardier",
+          ingredients: "1 oz Campari, 1 oz Sweet vermouth, 1 1⁄4 ozBulleit Rye Whiskey",
+          image: "https://i.imgur.com/25KVgl1.jpg"
+        },
+        {
+          id: 12,
+          name: "Boulevardier",
+          ingredients: "1 oz Campari, 1 oz Sweet vermouth, 1 1⁄4 ozBulleit Rye Whiskey",
+          image: "https://i.imgur.com/25KVgl1.jpg"
+        },
+        {
+          id: 13,
+          name: "Boulevardier",
+          ingredients: "1 oz Campari, 1 oz Sweet vermouth, 1 1⁄4 ozBulleit Rye Whiskey",
+          image: "https://i.imgur.com/25KVgl1.jpg"
+        },
+        {
+          id: 14,
+          name: "Boulevardier",
+          ingredients: "1 oz Campari, 1 oz Sweet vermouth, 1 1⁄4 ozBulleit Rye Whiskey",
+          image: "https://i.imgur.com/25KVgl1.jpg"
+        },
+        {
+          id: 15,
+          name: "Boulevardier",
+          ingredients: "1 oz Campari, 1 oz Sweet vermouth, 1 1⁄4 ozBulleit Rye Whiskey",
+          image: "https://i.imgur.com/25KVgl1.jpg"
+        },
+        {
+          id: 16,
+          name: "Boulevardier",
+          ingredients: "1 oz Campari, 1 oz Sweet vermouth, 1 1⁄4 ozBulleit Rye Whiskey",
+          image: "https://i.imgur.com/25KVgl1.jpg"
+        },
+        {
+          id: 17,
+          name: "Boulevardier",
+          ingredients: "1 oz Campari, 1 oz Sweet vermouth, 1 1⁄4 ozBulleit Rye Whiskey",
+          image: "https://i.imgur.com/25KVgl1.jpg"
+        },
+        {
+          id: 18,
+          name: "Boulevardier",
+          ingredients: "1 oz Campari, 1 oz Sweet vermouth, 1 1⁄4 ozBulleit Rye Whiskey",
+          image: "https://i.imgur.com/25KVgl1.jpg"
+        },
+        {
+          id: 19,
+          name: "Boulevardier",
+          ingredients: "1 oz Campari, 1 oz Sweet vermouth, 1 1⁄4 ozBulleit Rye Whiskey",
+          image: "https://i.imgur.com/25KVgl1.jpg"
+        },
+        {
+          id: 20,
+          name: "Boulevardier",
+          ingredients: "1 oz Campari, 1 oz Sweet vermouth, 1 1⁄4 ozBulleit Rye Whiskey",
+          image: "https://i.imgur.com/25KVgl1.jpg"
+        },
+        {
+          id: 21,
+          name: "Boulevardier",
+          ingredients: "1 oz Campari, 1 oz Sweet vermouth, 1 1⁄4 ozBulleit Rye Whiskey",
+          image: "https://i.imgur.com/25KVgl1.jpg"
+        },
+        {
+          id: 22,
+          name: "Boulevardier",
+          ingredients: "1 oz Campari, 1 oz Sweet vermouth, 1 1⁄4 ozBulleit Rye Whiskey",
+          image: "https://i.imgur.com/25KVgl1.jpg"
+        },
+        {
+          id: 23,
+          name: "Boulevardier",
+          ingredients: "1 oz Campari, 1 oz Sweet vermouth, 1 1⁄4 ozBulleit Rye Whiskey",
+          image: "https://i.imgur.com/25KVgl1.jpg"
+        },
+        {
+          id: 24,
+          name: "Boulevardier",
+          ingredients: "1 oz Campari, 1 oz Sweet vermouth, 1 1⁄4 ozBulleit Rye Whiskey",
+          image: "https://i.imgur.com/25KVgl1.jpg"
+        },
+        {
+          id: 25,
+          name: "Boulevardier",
+          ingredients: "1 oz Campari, 1 oz Sweet vermouth, 1 1⁄4 ozBulleit Rye Whiskey",
+          image: "https://i.imgur.com/25KVgl1.jpg"
+        },
+        {
+          id: 26,
+          name: "Boulevardier",
+          ingredients: "1 oz Campari, 1 oz Sweet vermouth, 1 1⁄4 ozBulleit Rye Whiskey",
+          image: "https://i.imgur.com/25KVgl1.jpg"
         }
       ])
     })
