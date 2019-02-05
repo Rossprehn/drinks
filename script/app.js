@@ -133,4 +133,51 @@ app.get("/", (request, response, next) => {
     .catch(next)
 })
 
+app.post("/charge", (request, response, next) => {
+  charge(
+    parseInt(request.body.amount) * 100,
+    request.body.service,
+    request.body.token
+  )
+    .then(charge => {
+      response.json({ charge })
+    })
+    .catch(next)
+})
+
+function charge(amount, service, token){
+  return new Promise((resolve, reject) => {
+    stripe.charges.create(
+      {
+        amount: amount,
+        currency: "usd",
+        description: service,
+        source: token
+      },
+      (error, charge) => {
+        if(error){
+          reject(error)
+        } else {
+          resolve(charge)
+        }
+      }
+    )
+  })
+}
+
+app.use((req, res, next) => {
+  const err = new Error("Not Found")
+  err.status = 404
+  next(err)
+})
+
+// error handler
+app.use((err, req, res, next) => {
+  res.status(err.status || 500)
+  res.json({
+    message: err.message,
+    error: req.app.get("env") === "development" ? err.stack : {}
+  })
+})
+
 module.exports = app
