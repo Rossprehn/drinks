@@ -133,17 +133,17 @@ app.get("/", (request, response, next) => {
     .catch(next)
 })
 
-app.post("/charge", (request, response, next) => {
-  charge(
-    parseInt(request.body.amount) * 100,
-    request.body.service,
-    request.body.token
-  )
-    .then(charge => {
-      response.json({ charge })
-    })
-    .catch(next)
-})
+// app.post("/charge", (request, response, next) => {
+//   charge(
+//     parseInt(request.body.amount) * 100,
+//     request.body.service,
+//     request.body.token
+//   )
+//     .then(charge => {
+//       response.json({ charge })
+//     })
+//     .catch(next)
+// })
 
 // function charge(amount, service, token){
 //   return new Promise((resolve, reject) => {
