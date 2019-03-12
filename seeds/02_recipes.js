@@ -35,12 +35,12 @@ exports.seed = function(knex, Promise) {
         },
         {
            id: 7,
-          recipe: "Add all the ingredients to a mixing glass. Muddle to break down the sugar and stir briefly. Fill with ice, stir again and strain into a rocks glass filled with fresh ice. Twist slices of lemon and orange peel over the drink and drop them in.",
+          recipe: "Add all the ingredients to a Champagne flute. Garnish with a strawberry slice.",
           drink_id: 7
         },
         {
            id: 8,
-          recipe: "Add all the ingredients to a mixing glass. Muddle to break down the sugar and stir briefly. Fill with ice, stir again and strain into a rocks glass filled with fresh ice. Twist slices of lemon and orange peel over the drink and drop them in.",
+          recipe: "Add all the ingredients into shaker and dry-shake (no ice). Add ice and shake.Fine-strain into a chilled coupe.",
           drink_id: 8
         },
         {

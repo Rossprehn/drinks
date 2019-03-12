@@ -42,15 +42,15 @@ exports.seed = function(knex, Promise) {
         },
         {
           id: 7,
-          name: "Boulevardier",
-          ingredients: "1 oz Campari, 1 oz Sweet vermouth, 1 1⁄4 ozBulleit Rye Whiskey",
-          image: "https://i.imgur.com/25KVgl1.jpg"
+          name: "Sparkler",
+          ingredients: "1 oz Don Julio blanco tequila, splash Simple syrup, 5 oz Champagne",
+          image: "https://i.imgur.com/cPegWKC.jpg"
         },
         {
           id: 8,
-          name: "Boulevardier",
-          ingredients: "1 oz Campari, 1 oz Sweet vermouth, 1 1⁄4 ozBulleit Rye Whiskey",
-          image: "https://i.imgur.com/25KVgl1.jpg"
+          name: "Dragones Sunset",
+          ingredients: "1 3⁄4 oz Casa Dragones blanco tequila, 1⁄4 oz Yellow Chartreuse, 1⁄2 oz Carrot juice, 1⁄2 o Orange juice, 1 Egg white",
+          image: "https://i.imgur.com/v1oJxLX.jpg"
         },
         {
           id: 9,
