@@ -45,22 +45,22 @@ exports.seed = function(knex, Promise) {
         },
         {
            id: 9,
-          recipe: "Add all the ingredients to a mixing glass. Muddle to break down the sugar and stir briefly. Fill with ice, stir again and strain into a rocks glass filled with fresh ice. Twist slices of lemon and orange peel over the drink and drop them in.",
+          recipe: "Add all the ingredients to a mixing glass and fill with ice. Stir, and strain into a chilled coupe glass.",
           drink_id: 9
         },
         {
            id: 10,
-          recipe: "Add all the ingredients to a mixing glass. Muddle to break down the sugar and stir briefly. Fill with ice, stir again and strain into a rocks glass filled with fresh ice. Twist slices of lemon and orange peel over the drink and drop them in.",
+          recipe: "Add all the ingredients into a shaker with ice and shake. Strain into a chilled cocktail glass. Garnish with a lime wedge.",
           drink_id: 10
         },
         {
            id: 11,
-          recipe: "Add all the ingredients to a mixing glass. Muddle to break down the sugar and stir briefly. Fill with ice, stir again and strain into a rocks glass filled with fresh ice. Twist slices of lemon and orange peel over the drink and drop them in.",
+          recipe: "Add all the ingredients into a shaker with ice, and shake thoroughly until well-chilled. Double-strain into two shot glasses.(Makes 2 shots)",
           drink_id: 11
         },
         {
            id:  12,
-          recipe: "Add all the ingredients to a mixing glass. Muddle to break down the sugar and stir briefly. Fill with ice, stir again and strain into a rocks glass filled with fresh ice. Twist slices of lemon and orange peel over the drink and drop them in.",
+          recipe: "Add the vodka into a Collins glass with ice. Top with the juice and stir. Garnish with a lemon or lime wedge.",
           drink_id: 12
         },
         {

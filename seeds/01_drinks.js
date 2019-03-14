@@ -7,74 +7,74 @@ exports.seed = function(knex, Promise) {
         {
           id: 1,
           name: "Manhattan",
-          ingredients: "2 oz Bourbon or rye, 1 oz Sweet vermouth, 2 dashes Angostura bitter, 1 dashOrange bitters",
+          ingredients: "2 oz Bourbon or rye, 1 oz Sweet vermouth, 2 dashes Angostura bitter & 1 dashOrange bitters",
           image: "https://i.imgur.com/9yYdZHs.jpg"
         },
         {
           id: 2,
           name: "Old Fashioned",
-          ingredients: "1⁄2 tsp White sugar, 3 dashes Angostura bitters, 1 dash Orange Bitters, 6 1⁄4 oz Cold water, 1 Brown sugar cube",
+          ingredients: "1⁄2 tsp White sugar, 3 dashes Angostura bitters, 1 dash Orange Bitters, 6 1⁄4 oz Cold water & 1 Brown sugar cube",
           image: "https://i.imgur.com/DKOLw8k.jpg"
         },
         {
           id: 3,
           name: "Boulevardier",
-          ingredients: "1 oz Campari, 1 oz Sweet vermouth, 1 1⁄4 ozBulleit Rye Whiskey",
+          ingredients: "1 oz Campari, 1 oz Sweet vermouth & 1 1⁄4 ozBulleit Rye Whiskey",
           image: "https://i.imgur.com/25KVgl1.jpg"
         },
         {
           id: 4,
           name: "Margarita",
-          ingredients: "2 oz Blanco tequila, 1 oz Fresh lime juice, 1⁄2 oz Orange liqueur, 1⁄2 oz Agave syrup",
+          ingredients: "2 oz Blanco tequila, 1 oz Fresh lime juice, 1⁄2 oz Orange liqueur & 1⁄2 oz Agave syrup",
           image: "https://i.imgur.com/8Vc6taM.jpg"
         },
         {
           id: 5,
           name: "Paloma",
-          ingredients: "Tequila 2 oz, 1/2 oz Fresh lime juice, Pinch of salt (to taste) Grapefruit soda, to top (Jarritos or Squirt work best)",
+          ingredients: "Tequila 2 oz, 1/2 oz Fresh lime juice, Pinch of salt (to taste) Grapefruit & soda to top",
           image: "https://i.imgur.com/CsmLoPS.jpg"
         },
         {
           id: 6,
           name: "Tequila Limeade",
-          ingredients: "1⁄2 oz Light agave nectar, 8 sprigs Cilantro leaves, plus a full sprig for garnish, 2 slices Fresh jalapeño, 1 1⁄2 oz Cazadores tequila blanco, 3⁄4 oz Fresh lime juice, 12 oz Club soda",
+          ingredients: "1⁄2 oz Light agave nectar, 8 sprigs Cilantro leaves, plus a full sprig for garnish, 2 slices Fresh jalapeño, 1 1⁄2 oz Cazadores tequila blanco, 3⁄4 oz Fresh lime juice & 12 oz Club soda",
           image: "https://i.imgur.com/mSGJgEN.jpg"
         },
         {
           id: 7,
           name: "Sparkler",
-          ingredients: "1 oz Don Julio blanco tequila, splash Simple syrup, 5 oz Champagne",
+          ingredients: "1 oz Don Julio blanco tequila, splash Simple syrup & 5 oz Champagne",
           image: "https://i.imgur.com/cPegWKC.jpg"
         },
         {
           id: 8,
           name: "Dragones Sunset",
-          ingredients: "1 3⁄4 oz Casa Dragones blanco tequila, 1⁄4 oz Yellow Chartreuse, 1⁄2 oz Carrot juice, 1⁄2 o Orange juice, 1 Egg white",
+          ingredients: "1 3⁄4 oz Casa Dragones blanco tequila, 1⁄4 oz Yellow Chartreuse, 1⁄2 oz Carrot juice, 1⁄2 o Orange juice & 1 Egg white",
           image: "https://i.imgur.com/v1oJxLX.jpg"
         },
         {
           id: 9,
-          name: "Boulevardier",
-          ingredients: "1 oz Campari, 1 oz Sweet vermouth, 1 1⁄4 ozBulleit Rye Whiskey",
-          image: "https://i.imgur.com/25KVgl1.jpg"
+          name: "Ascot",
+          ingredients: "1 oz Ultimat vodka, 1 oz Pierre Ferrand Ambre Cognac, 1⁄2 oz Carpano Antica formula vermouth & 1⁄2 oz Dolin dry vermouth",
+          image: "https://i.imgur.com/jiVVCuU.jpg"
         },
         {
           id: 10,
-          name: "Boulevardier",
-          ingredients: "1 oz Campari, 1 oz Sweet vermouth, 1 1⁄4 ozBulleit Rye Whiskey",
-          image: "https://i.imgur.com/25KVgl1.jpg"
+          name: "Cosmopolitan",
+          ingredients: "1 1⁄2 oz Citrus vodka, 1 oz Cointrea, 1⁄2 oz Fresh lime juice & 1 dash Cranberry juice",
+          image: "https://i.imgur.com/LFnhotn.jpg"
         },
         {
           id: 11,
-          name: "Boulevardier",
-          ingredients: "1 oz Campari, 1 oz Sweet vermouth, 1 1⁄4 ozBulleit Rye Whiskey",
-          image: "https://i.imgur.com/25KVgl1.jpg"
+          name: "Kamikaze",
+          ingredients: "2 oz Vodka, 3⁄4 oz Orange liqueur & 3⁄4 ozFresh lime juice",
+          image: "https://i.imgur.com/hnGTm5h.jpg"
         },
         {
           id: 12,
-          name: "Boulevardier",
-          ingredients: "1 oz Campari, 1 oz Sweet vermouth, 1 1⁄4 ozBulleit Rye Whiskey",
-          image: "https://i.imgur.com/25KVgl1.jpg"
+          name: " Greyhound",
+          ingredients: "1 1⁄2 oz Vodka, Grapefruit juice & 1 Lemon or lime wedge",
+          image: "https://i.imgur.com/5803uDx.jpg"
         },
         {
           id: 13,
