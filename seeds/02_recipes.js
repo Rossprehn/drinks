@@ -65,37 +65,37 @@ exports.seed = function(knex, Promise) {
         },
         {
            id: 13,
-          recipe: "Add all the ingredients to a mixing glass. Muddle to break down the sugar and stir briefly. Fill with ice, stir again and strain into a rocks glass filled with fresh ice. Twist slices of lemon and orange peel over the drink and drop them in.",
+          recipe: "Add the vodka to a highball glass filled with ice. Top with cranberry juice and stir until chilled. Squeeze the lime wedge over the glass and drop it into the drink.",
           drink_id: 13
         },
         {
            id: 14,
-          recipe: "Add all the ingredients to a mixing glass. Muddle to break down the sugar and stir briefly. Fill with ice, stir again and strain into a rocks glass filled with fresh ice. Twist slices of lemon and orange peel over the drink and drop them in.",
+          recipe: "Add all the ingredients into a shaker with ice and shake. Strain into a chilled cocktail glass. Garnish with a lime wheel.",
           drink_id: 14
         },
         {
            id: 15,
-          recipe: "Add all the ingredients to a mixing glass. Muddle to break down the sugar and stir briefly. Fill with ice, stir again and strain into a rocks glass filled with fresh ice. Twist slices of lemon and orange peel over the drink and drop them in.",
+          recipe: "Add crushed ice to a cocktail glass and set aside to chill. Add all the ingredients into a shaker with cubed ice, and shake for about 10 seconds. Empty the ice from the cocktail glass, and double-strain the mixture into it. Garnish with a skewered brandied cherry and 3 Granny Smith apple slices.",
           drink_id: 15
         },
         {
            id: 16,
-          recipe: "Add all the ingredients to a mixing glass. Muddle to break down the sugar and stir briefly. Fill with ice, stir again and strain into a rocks glass filled with fresh ice. Twist slices of lemon and orange peel over the drink and drop them in.",
+          recipe: "Combine all of the ingredients in a shaker with ice and shake. Strain into a coupe, and garnish with a skewered bruleed banana slice.",
           drink_id: 16
         },
         {
            id: 17,
-          recipe: "Add all the ingredients to a mixing glass. Muddle to break down the sugar and stir briefly. Fill with ice, stir again and strain into a rocks glass filled with fresh ice. Twist slices of lemon and orange peel over the drink and drop them in.",
+          recipe: "Combine all the ingredients into a mixing glass with ice and stir until well-chilled. Strain into a chilled coupe. Garnish with three drops of olive oil.",
           drink_id: 17
         },
         {
            id: 18,
-          recipe: "Add all the ingredients to a mixing glass. Muddle to break down the sugar and stir briefly. Fill with ice, stir again and strain into a rocks glass filled with fresh ice. Twist slices of lemon and orange peel over the drink and drop them in.",
+          recipe: "Add all of the ingredients in a mixing glass with ice and stir. Pour into a rocks glass over ice, and garnish with an orange twist.",
           drink_id: 18
         },
         {
            id: 19,
-          recipe: "Add all the ingredients to a mixing glass. Muddle to break down the sugar and stir briefly. Fill with ice, stir again and strain into a rocks glass filled with fresh ice. Twist slices of lemon and orange peel over the drink and drop them in.",
+          recipe: "Add all ingredients into a mixing glass with ice and stir until chilled. Strain into a Nick & Nora glass. Garnish with a lemon twist.",
           drink_id: 19
         },
         {
@@ -105,7 +105,7 @@ exports.seed = function(knex, Promise) {
         },
         {
            id: 21,
-          recipe: "Add all the ingredients to a mixing glass. Muddle to break down the sugar and stir briefly. Fill with ice, stir again and strain into a rocks glass filled with fresh ice. Twist slices of lemon and orange peel over the drink and drop them in.",
+          recipe: "Combine all the ingredients in a shaker with ice, and shake until appropriately diluted and chilled. Fine-strain into a chilled coupe glass, and garnish with 1 or 2 dehydrated lime wheels floating on top.",
           drink_id: 21
         },
         {

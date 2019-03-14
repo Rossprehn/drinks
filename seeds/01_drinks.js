@@ -78,57 +78,57 @@ exports.seed = function(knex, Promise) {
         },
         {
           id: 13,
-          name: "Boulevardier",
-          ingredients: "1 oz Campari, 1 oz Sweet vermouth, 1 1⁄4 ozBulleit Rye Whiskey",
-          image: "https://i.imgur.com/25KVgl1.jpg"
+          name: "Cape Codder",
+          ingredients: "1 1⁄2 oz Vodka, Cranberry juice & Lime wedge",
+          image: "https://i.imgur.com/9SDX4F1.jpg"
         },
         {
           id: 14,
-          name: "Boulevardier",
-          ingredients: "1 oz Campari, 1 oz Sweet vermouth, 1 1⁄4 ozBulleit Rye Whiskey",
-          image: "https://i.imgur.com/25KVgl1.jpg"
+          name: "Gimlet",
+          ingredients: "2 1⁄2 oz Vodka, 1⁄2 oz Fresh lime juice & 1⁄2 oz Simple syrup",
+          image: "https://i.imgur.com/iMiGcyT.jpg"
         },
         {
           id: 15,
-          name: "Boulevardier",
-          ingredients: "1 oz Campari, 1 oz Sweet vermouth, 1 1⁄4 ozBulleit Rye Whiskey",
-          image: "https://i.imgur.com/25KVgl1.jpg"
+          name: "Appletini",
+          ingredients: "1 1⁄4 oz Vodka, 1 oz Calvados, 1 1⁄4 oz Fresh Granny Smith apple juice, 1⁄4 oz Fresh lemon juice & 1⁄4 oz Simple syrup",
+          image: "https://i.imgur.com/dIzSlfM.jpg"
         },
         {
           id: 16,
-          name: "Boulevardier",
-          ingredients: "1 oz Campari, 1 oz Sweet vermouth, 1 1⁄4 ozBulleit Rye Whiskey",
-          image: "https://i.imgur.com/25KVgl1.jpg"
+          name: "Midnight Oil",
+          ingredients: "1 1⁄2 oz Mount Gay Black Barrel rum, 3⁄4 oz Stumptown cold-brew coffee, 1⁄4 oz Domaine de Canton ginger liqueur, 1⁄4 oz Giffard Banane du Brésil liqueur &3 dashes Vanilla extract",
+          image: "https://i.imgur.com/yR2Dvyv.jpg"
         },
         {
           id: 17,
-          name: "Boulevardier",
-          ingredients: "1 oz Campari, 1 oz Sweet vermouth, 1 1⁄4 ozBulleit Rye Whiskey",
-          image: "https://i.imgur.com/25KVgl1.jpg"
+          name: "Clarita",
+          ingredients: "2 oz Bacardí Gran Reserva Maestro de Ron eight-year-old rum, 1⁄3 oz Amontillado sherry, 1 barspoon Crème de cacao, 2 dashes Absinthe & 1 dash Saline solution",
+          image: "https://i.imgur.com/uR7FjB1.jpg"
         },
         {
           id: 18,
-          name: "Boulevardier",
-          ingredients: "1 oz Campari, 1 oz Sweet vermouth, 1 1⁄4 ozBulleit Rye Whiskey",
-          image: "https://i.imgur.com/25KVgl1.jpg"
+          name: "Rye Bandit",
+          ingredients: "2 oz Bourbon, 1 oz Amaro Delle Sirene & 1 oz Luna Amara bitter",
+          image: "https://i.imgur.com/N2er9Tw.jpg"
         },
         {
           id: 19,
-          name: "Boulevardier",
-          ingredients: "1 oz Campari, 1 oz Sweet vermouth, 1 1⁄4 ozBulleit Rye Whiskey",
-          image: "https://i.imgur.com/25KVgl1.jpg"
+          name: "Commander in Chief",
+          ingredients: "1⁄2 oz Redbreast 12-year-old Irish whiskey, 1 oz Green Spot Irish whiskey, 1⁄2 oz Lemorton Pommeau de Normandie brandy, 1⁄2 tsp Giffard apricot brandy, 1⁄2 oz Fusion verjus blanc, 1⁄2 tsp Passion fruit syrup & 2 dashes Angostura bitters",
+          image: "https://i.imgur.com/68iAZ7s.jpg"
         },
         {
           id: 20,
-          name: "Boulevardier",
-          ingredients: "1 oz Campari, 1 oz Sweet vermouth, 1 1⁄4 ozBulleit Rye Whiskey",
-          image: "https://i.imgur.com/25KVgl1.jpg"
+          name: "Crimson King",
+          ingredients: "1 oz Rittenhouse rye, 3⁄4 oz Campari, 1⁄2 oz Punt e Mes, 1⁄4 oz Cherry Heering & 1 barspoonSt. George NOLA coffee liqueur",
+          image: "https://i.imgur.com/x7SRWFe.jpg"
         },
         {
           id: 21,
-          name: "Boulevardier",
-          ingredients: "1 oz Campari, 1 oz Sweet vermouth, 1 1⁄4 ozBulleit Rye Whiskey",
-          image: "https://i.imgur.com/25KVgl1.jpg"
+          name: "Scottish Breakfast",
+          ingredients: "1 oz Ardbeg Ten Years Old scotch, 1 1⁄2 oz Pür Likör spice blood orange liqueur, 1⁄2 oz Fresh lime juice, 1⁄2 oz  Apple butter & 3 dashes Fee Brothers Aztec chocolate bitters",
+          image: "https://i.imgur.com/7DbcSzl.jpg"
         },
         {
           id: 22,
