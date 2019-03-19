@@ -110,32 +110,32 @@ exports.seed = function(knex, Promise) {
         },
         {
            id: 22,
-          recipe: "Add all the ingredients to a mixing glass. Muddle to break down the sugar and stir briefly. Fill with ice, stir again and strain into a rocks glass filled with fresh ice. Twist slices of lemon and orange peel over the drink and drop them in.",
+          recipe: "Add the ingredients to a shaker with ice and shake. Strain into a Champagne flute. Top with dry sparkling wine and garnish with a lemon twist.",
           drink_id: 22
         },
         {
            id: 23,
-          recipe: "Add all the ingredients to a mixing glass. Muddle to break down the sugar and stir briefly. Fill with ice, stir again and strain into a rocks glass filled with fresh ice. Twist slices of lemon and orange peel over the drink and drop them in.",
+          recipe: "Add all the ingredients to a shaker and fill with ice. Shake, and strain into a chilled cocktail glass. Garnish with a lime wheel.",
           drink_id: 23
         },
         {
            id: 24,
-          recipe: "Add all the ingredients to a mixing glass. Muddle to break down the sugar and stir briefly. Fill with ice, stir again and strain into a rocks glass filled with fresh ice. Twist slices of lemon and orange peel over the drink and drop them in.",
+          recipe: "Add all the ingredients to a shaker and fill with ice. Shake for 11 seconds and strain into a cocktail glass. Garnish with a lemon twist.",
           drink_id: 24
         },
         {
            id: 25,
-          recipe: "Add all the ingredients to a mixing glass. Muddle to break down the sugar and stir briefly. Fill with ice, stir again and strain into a rocks glass filled with fresh ice. Twist slices of lemon and orange peel over the drink and drop them in.",
+          recipe: "Add all the ingredients to a shaker and fill with ice. Shake, and strain into a rocks glass filled with fresh ice. Garnish with a lime wheel.",
           drink_id: 25
         },
         {
            id: 26,
-          recipe: "Add all the ingredients to a mixing glass. Muddle to break down the sugar and stir briefly. Fill with ice, stir again and strain into a rocks glass filled with fresh ice. Twist slices of lemon and orange peel over the drink and drop them in.",
+          recipe: "Muddle the watermelon and agave syrup in a shaker. Add the remaining ingredients and ice and shake. Double-strain into a chilled Martini glass. Garnish with a watermelon slice.",
           drink_id: 26
         }
         ])
       })
       .then(() => {
-      return knex.raw('ALTER SEQUENCE recipes_id_seq RESTART WITH 4;')
+      return knex.raw('ALTER SEQUENCE recipes_id_seq RESTART WITH 27;')
     })
 }

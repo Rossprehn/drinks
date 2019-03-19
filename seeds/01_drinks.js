@@ -132,37 +132,37 @@ exports.seed = function(knex, Promise) {
         },
         {
           id: 22,
-          name: "Boulevardier",
-          ingredients: "1 oz Campari, 1 oz Sweet vermouth, 1 1⁄4 ozBulleit Rye Whiskey",
-          image: "https://i.imgur.com/25KVgl1.jpg"
+          name: "French 75",
+          ingredients: "1.5 oz Bluecoat American Dry Gin, .75 oz Fresh lemon juice, .25 oz Simple syrup & 2 oz Champagne",
+          image: "https://i.imgur.com/9UqMQ8d.jpg"
         },
         {
           id: 23,
-          name: "Boulevardier",
-          ingredients: "1 oz Campari, 1 oz Sweet vermouth, 1 1⁄4 ozBulleit Rye Whiskey",
-          image: "https://i.imgur.com/25KVgl1.jpg"
+          name: "Mango Brava Daiquiri",
+          ingredients: "2 oz Mango-Infused Rum, 1⁄2 oz Lime juice & 1⁄2 oz Simple syrup",
+          image: "https://i.imgur.com/DRR9kTW.jpg"
         },
         {
           id: 24,
-          name: "Boulevardier",
-          ingredients: "1 oz Campari, 1 oz Sweet vermouth, 1 1⁄4 ozBulleit Rye Whiskey",
-          image: "https://i.imgur.com/25KVgl1.jpg"
+          name: "Cosmo Rita",
+          ingredients: "1 1⁄2 oz Sauza Gold Tequila, 1 oz Cranberry juice, 1⁄2 oz DeKuyper Triple Sec & 1⁄2 oz Fresh lime juice",
+          image: "https://i.imgur.com/7DNrnFQ.jpg"
         },
         {
           id: 25,
-          name: "Boulevardier",
-          ingredients: "1 oz Campari, 1 oz Sweet vermouth, 1 1⁄4 ozBulleit Rye Whiskey",
-          image: "https://i.imgur.com/25KVgl1.jpg"
+          name: "Savory Margarita",
+          ingredients: "1 1⁄2 oz Milagro Reposado Tequila, 1 oz Fresh red bell pepper juice, 1 oz Fresh lime juice, 3⁄4 oz Honey syrup & 1 handful Fresh cilantro",
+          image: "https://i.imgur.com/qAMN1qx.jpg"
         },
         {
           id: 26,
           name: "Boulevardier",
-          ingredients: "1 oz Campari, 1 oz Sweet vermouth, 1 1⁄4 ozBulleit Rye Whiskey",
-          image: "https://i.imgur.com/25KVgl1.jpg"
+          ingredients: "1 cup Seedless watermelon, cut into 1-inch cubes, 1⁄4 oz Agave syrup, 1 1⁄2 oz Don Julio blanco tequila & 1⁄2 oz Fresh lime juice",
+          image: "https://i.imgur.com/bool1w5.jpg"
         }
       ])
     })
   .then(() => {
-    return knex.raw('ALTER SEQUENCE drinks_id_seq RESTART WITH 4;')
+    return knex.raw('ALTER SEQUENCE drinks_id_seq RESTART WITH 27;')
   })
 }
