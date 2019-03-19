@@ -18,8 +18,9 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./script/index.js",
-    "dev": "nodemon ./script/index.js"
+    "start": "node src/index.js",
+    "dev": "nodemon ./script/index.js",
+    "build": "webpack"
   },
   "author": "",
   "license": "ISC"
