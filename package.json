@@ -2,7 +2,7 @@
   "name": "drinks",
   "version": "1.0.0",
   "description": "backend for daily drink app",
-  "main": "index.js",
+  "main": "./script/app.js",
   "dependencies": {
     "body-parser": "^1.18.3",
     "cors": "^2.8.4",
@@ -18,7 +18,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/index.js",
+    "start": "node ./script/index.js",
     "dev": "nodemon ./script/index.js",
     "build": "webpack"
   },
